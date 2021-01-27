@@ -23,10 +23,10 @@ driver.get(
 'https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin')
 
 elementID = driver.find_element_by_id('username')
-elementID.send_keys("lqpeng@ualberta.ca")
+elementID.send_keys("")
 
 elementID = driver.find_element_by_id('password')
-elementID.send_keys("Woaili123")
+elementID.send_keys("")
 
 elementID.submit()
 
